@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer3, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -72,16 +72,22 @@ export const services = [
 
 export const reviews = [
     {
-        imgURL: customer1,
-        customerName: 'Morich Brown',
-        rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        imgURL: customer3,
+        customerName: 'Happy Customer #1',
+        rating: 5,
+        feedback: "FIVE STARS!"
     },
     {
-        imgURL: customer2,
-        customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        imgURL: customer3,
+        customerName: 'Happy Customer #2',
+        rating: 5,
+        feedback: "FLAWLESS!"
+    },
+    {
+        imgURL: customer3,
+        customerName: 'Happy Customer #3',
+        rating: 5.1,
+        feedback: "GREATER THAN GREAT!"
     }
 ];
 

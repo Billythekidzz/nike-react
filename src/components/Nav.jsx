@@ -23,8 +23,24 @@ const Nav = () => {
           {navLinks.map((item) => (
             <li key={item.label}>
               <a href={item.href} 
-              className="text-black
+              className="font-montserrat
+              leading-normal
+              text-lg
+              text-slate-gray"
+              >
+                {item.label}
+              </a>
+              </li>
+))}
         </ul>
+        <div className="hidden max-lg:block">
+          <img
+          src={hamburger}
+          alt="Hamburger"
+          width={25}
+          height={25}
+          />
+        </div>
       </nav>
     </header>
   )
